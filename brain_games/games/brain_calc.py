@@ -12,9 +12,9 @@ def start_game() -> None:
         math_sign = random.choice("+-*")
         question = f"{num1} {math_sign} {num2}"
         operators = {
-                "+": lambda x, y: x + y,
-                "-": lambda x, y: x - y,
-                "*": lambda x, y: x * y,
+            "+": lambda x, y: x + y,
+            "-": lambda x, y: x - y,
+            "*": lambda x, y: x * y,
         }
         correct_answer = operators[math_sign](num1, num2)
         return (question, str(correct_answer))
