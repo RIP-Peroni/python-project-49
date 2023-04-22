@@ -20,4 +20,3 @@ def start_game() -> None:
         return (question, str(correct_answer))
 
     launch_engine(description, get_question_and_answer)
-
