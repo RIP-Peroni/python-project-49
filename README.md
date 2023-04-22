@@ -5,7 +5,7 @@
 ## Install
 Для установки зависимостей используйте `make install`
 ## Package install 
-Для установки зависимостей в качестве библиотеки в ОС используйте `make package-install`
+Для установки проекта в качестве библиотеки в ОС используйте `make package-install`
 ## brain-even
  Игроку показывается случайное число. Нужно ответить **yes**, если число чётное, **no** — если нечётное.
 [![asciicast_brain-even](https://asciinema.org/a/fQigPnKZdpH54g9Jkl5Gwcp9V.png)](https://asciinema.org/a/fQigPnKZdpH54g9Jkl5Gwcp9V)
